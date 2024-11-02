@@ -9,5 +9,7 @@ declare global {
     Buffer: typeof Buffer;
   }
 }
-(window as any).Buffer = Buffer;
+
+window.Buffer = Buffer;
+
 createApp(App).mount('#app')
